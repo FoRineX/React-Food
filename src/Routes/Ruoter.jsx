@@ -35,5 +35,7 @@ export const router = createBrowserRouter([{
         element: <Recipe/>
     },
 ]
-}])
+}],
+{basename: '/React-Food'} 
+)
 
